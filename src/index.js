@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 const component = () => {
     const element = document.createElement('div');
 
@@ -6,4 +8,4 @@ const component = () => {
     return element;
 };
 
-document.body.appendChild(component);
+document.body.appendChild(component());
