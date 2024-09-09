@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css';
+import Logo from './logo.png';
 
 const component = () => {
     const element = document.createElement('div');
