@@ -8,6 +8,11 @@ const component = () => {
     element.innerHTML = _.join(['Hello', 'Data Cat'], " ");
     element.classList.add('hello');
 
+    const myLogo = new Image();
+    myLogo.src = Logo;
+
+    element.appendChild(myLogo);
+
     return element;
 };
 
