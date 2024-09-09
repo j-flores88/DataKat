@@ -1,4 +1,6 @@
 .splash {
     background-image: url('./splash_bg.png');
     background-size: cover;
+    display: flex;
+    text-align: center;
 }
