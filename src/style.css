@@ -143,7 +143,6 @@ section{
 }
 
 .about {
-    background-image: linear-gradient(to top , #134e5e, #ffffff) !important;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
